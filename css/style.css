@@ -13,15 +13,20 @@
     float: right;
     cursor: pointer;
 }
+.tuduElement{
+    word-wrap: break-word;
+}
 
 .liClass {
     margin: 10px;
+    word-wrap: normal
 }
 
 input {
     width: 70%;
     padding: 12px;
     margin: 8px 0;
+    font-size: 24px;
     box-sizing: border-box;
 }
 
@@ -34,6 +39,12 @@ input {
 }
 
 #save {
+    background-color: #6C6CDA;
+    padding: 10px 20px;
+    margin: 8px 0px;
+}
+
+#clear {
     background-color: #6C6CDA;
     padding: 10px 20px;
     margin: 8px 0px;
