@@ -59,6 +59,7 @@ html1.addElement()
 listener.postTodos()
 listener.getTodos()
 listener.clearAll()
-listener.inputEvent()
+listener.inputEnter()
+listener.input()
 export default html1
 

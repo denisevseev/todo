@@ -7,6 +7,13 @@ class listeners {
         this.valueInput = document.querySelector ( 'input' );
 
     }
+    input(){
+        this.valueInput.addEventListener('keydown', (e)=>{
+            debugger
+            let modal = `<div> Нажмите Enter чтобы добавить задачу </div>`
+            document.querySelector('.modal').innerHTML = modal
+        })
+    }
     postTodos () {
         let arr = []
         this.save.addEventListener ( 'click', () => {
@@ -35,7 +42,7 @@ class listeners {
             location.reload()
         } )
     }
-    inputEvent(){
+    inputEnter(){
         this.valueInput.addEventListener('keypress', (e)=>{
             if(e.key==='Enter') html1.addElement(this.valueInput.value)
         })

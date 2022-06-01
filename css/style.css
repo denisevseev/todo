@@ -30,6 +30,12 @@ input {
     box-sizing: border-box;
 }
 
+
+.modal {
+    opacity: 0;
+    transition: all 10s;
+    color: green;
+}
 #addLi {
     float: right;
     padding: 10px 20px;
